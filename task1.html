@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ball_1{
+            height: 150px;
+            width: 150px;
+            border-radius: 60%;
+            background-color: chartreuse;
+            display: inline-block;
+            animation-name: ball_1;
+            animation-fill-mode: forwards;
+            animation-duration: 3s;
+            position: relative;
+            animation-direction: alternate;
+            animation-iteration-count: 200;
+            animation-timing-function: ease;
+        }
+        @keyframes ball_1 {
+            from{
+                top: 200px;
+                background-color: rgb(106, 153, 58);
+            }
+            to{
+                top: 0px;
+                background-color: rgb(32, 38, 38);
+            }
+        }
+        #ball_2{
+            height: 150px;
+            width: 150px;
+            border-radius: 60%;
+            background-color: rgb(170, 220, 120);
+            display: inline-block;
+            animation-name: ball_2;
+            animation-fill-mode: forwards;
+            animation-duration:3s;
+            position: relative;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: 200;
+            animation-timing-function: ease;
+        }
+        @keyframes ball_2 {
+            from{
+                top: 200px;
+                background-color: rgb(247, 76, 187);
+            }
+            to{
+                top: 0px;
+                background-color: rgb(223, 245, 85);
+            }
+        }
+        #ball_3{
+            height: 150px;
+            width: 150px;
+            border-radius: 60%;
+            background-color: rgb(219, 173, 22);
+            display: inline-block;
+            animation-name: ball_3;
+            animation-fill-mode: forwards;
+            animation-duration: 4s;
+            position: relative;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: 200;
+            animation-timing-function: ease;
+        }
+        @keyframes ball_3 {
+            from{
+                top: 0px;
+                background-color: rgb(174, 93, 36);
+            }
+            to{
+                top: 200px;
+                background-color: rgb(223, 70, 106);
+            }
+        }
+        #ball_4{
+            height: 150px;
+            width: 150px;
+            border-radius: 60%;
+            background-color: rgb(81, 72, 209);
+            display: inline-block;
+            animation-name: ball_4;
+            animation-fill-mode: forwards;
+            animation-duration: 3s;
+            position: relative;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: 200;
+            animation-timing-function: ease;
+           
+        }
+        @keyframes ball_4 {
+            from{
+                top: 0px;
+                background-color: rgb(94, 19, 179);
+            }
+            to{
+                top: 200px;
+                background-color: rgb(79, 217, 217);
+            }
+        }
+       
+    </style>
+</head>
+<body>
+ 
+    <div id="ball_1">
+
+    </div>
+    <div id="ball_2">
+
+    </div>
+    <div id="ball_3">
+
+    </div>
+    <div id="ball_4">
+
+    </div>
+  
+</body>
+</html>

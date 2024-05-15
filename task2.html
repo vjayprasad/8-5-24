@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#parent_div{
+    border: 1px solid black;
+    height: 400px;
+    width: 250px;
+    position: relative;
+}
+#div_1{
+    position: absolute;
+    display: inline-block;
+    height: 250px;
+    width: 30px;
+    background-color: black;
+    animation-name: div1;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 200;
+    top: 90px;
+}
+@keyframes div1 {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 250px;
+    }
+    
+}
+#div_2{
+    position: absolute;
+    display: inline-block;
+    height: 250px;
+    width: 30px;
+    background-color: black;
+    animation-name: div2;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 200;
+    top: 90px;
+    margin-left: 40px;
+}
+@keyframes div2 {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 230px;
+    }
+    
+}
+#div_3{
+    position: absolute;
+    display: inline-block;
+    height: 250px;
+    width: 30px;
+    background-color: black;
+    animation-name: div3;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 200;
+    top: 90px;
+    margin-left: 80px;
+}
+@keyframes div3 {
+    from{
+        height: 220px;
+    }
+    to{
+        height: 0px;
+    }
+    
+}
+#div_4{
+    position: absolute;
+    display: inline-block;
+    height: 250px;
+    width: 30px;
+    background-color: black;
+    animation-name: div4;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 200;
+    top: 90px;
+    margin-left: 120px;
+}
+@keyframes div4 {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 250px;
+    }
+    
+}
+#div_5{
+    position: absolute;
+    display: inline-block;
+    height: 250px;
+    width: 30px;
+    background-color: black;
+    animation-name: div5;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 200;
+    top: 90px;
+    margin-left: 160px;
+}
+@keyframes div5 {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 250px;
+    }
+    
+}
+#div_6{
+    position: absolute;
+    display: inline-block;
+    height: 250px;
+    width: 30px;
+    background-color: black;
+    animation-name: div6;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 200;
+    top: 90px;
+    margin-left: 200px;
+}
+@keyframes div6 {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 250px;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <div id="parent_div">
+        <div id="div_1"></div>
+        <div id="div_2"></div>
+        <div id="div_3"></div>
+        <div id="div_4"></div>
+        <div id="div_5"></div>
+        <div id="div_6"></div>
+    </div>
+</body>
+</html>
